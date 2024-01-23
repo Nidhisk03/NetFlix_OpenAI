@@ -13,4 +13,6 @@ export const API_OPTIONS = {
 };
 
 
-export const IMG_POSTER = "https://image.tmdb.org/t/p/w500"
+export const IMG_POSTER = "https://image.tmdb.org/t/p/w500";
+
+export const OPEN_AI = "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"
