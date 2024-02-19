@@ -55,8 +55,8 @@ const Header = () => {
   }, []);
 
   return (
-    <div className='absolute px-8 w-full py-2 bg-gradient-to-b from-black z-50 flex justify-between'>
-      <img className='w-48' alt='logo' src={LOGO} />
+    <div className='absolute px-8 w-full py-2 bg-gradient-to-b from-black z-50 flex justify-between flex-col md:flex-row'>
+      <img className='w-48 mx-auto md:mx-0' alt='logo' src={LOGO} />
 
       {user && <div className='flex'>
 
@@ -70,7 +70,7 @@ const Header = () => {
         </select>}
 
 
-        <button onClick={handlegpt} className='h-10 w-32 mt-5 mr-3 text-lg text-white bg-black rounded-lg bg-opacity-25 hover:bg-white hover:bg-opacity-25'>
+        <button onClick={handlegpt} className='h-10 w-32 mt-5 mr-3 text-lg text-white bg-black rounded-lg bg-opacity-25 hover:bg-white hover:bg-opacity-25    '>
            {  gptSearch?"HomePage":"Netflix GPT"}
         </button>
         {/* <button className= 'bg-white h-12'>Netflix GPT</button> */}

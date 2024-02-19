@@ -44,7 +44,7 @@ const GptSearchBar = () => {
 
                 <input
                     ref={searchText}
-                    type='text' className='w-[75%] ml-5 p-2 mx-3 rounded-lg'
+                    type='text' className='md:w-[75%] w-[35%] ml-5 p-2 mx-3 md:mt-0 mt-8   rounded-lg'
                     placeholder={lang[langKey].gptSearchplaceholder}
                 />
 
